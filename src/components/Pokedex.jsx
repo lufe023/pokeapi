@@ -41,7 +41,7 @@ const Pokedex = () => {
     } else {
       // here is the first to charge
       const x = postPerPage
-      const URL = `https://pokeapi.co/api/v2/pokemon?limit=${postPerPage}&offset=${currentPage}`
+      const URL = `https://pokeapi.co/api/v2/pokemon?limit=${postPerPage}&offset=0`
       axios.get(URL)
         .then(res => setPokemons(res.data))
         .catch(err => console.log(err))
