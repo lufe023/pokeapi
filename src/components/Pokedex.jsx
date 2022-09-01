@@ -15,7 +15,7 @@ const Pokedex = () => {
   const [optionType, setOptionType ] = useState('All')
   const [loading, setLoading] = useState(false)
   const [currentPage, setCurrentPage ] = useState(1)
-  const [postPerPage, setPostPerPage] = useState(100)
+  const [postPerPage, setPostPerPage] = useState(20)
 
 
 
@@ -80,10 +80,7 @@ console.log(currentPage)
             
           ))
         }
-        <Pagination 
-          postPerPage={postPerPage}
-          totalPosts={pokemons?.results.length}
-          paginate={paginate}/>
+        
       </div>
     
     </div>
