@@ -1,0 +1,242 @@
+:root{
+    --grass:linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%) border-box;
+    --grass-text:#416460;
+
+
+    --fire:linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%) border-box;
+    --fire-text:#E75C35;
+
+    --water:linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%) border-box;
+    --water-text:#1479FB;
+
+    --bug:linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%) border-box;
+    --bug-text:#4AB648;
+
+    --normal:linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%) border-box;
+    --normal-text:#735259;
+
+    --poison:linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%) border-box;
+    --poison-text:#5B3184;
+
+    --electric:linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%) border-box;
+    --electric-text:#0C1395;
+
+    --ground:linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%) border-box;
+    --ground-text:#654008 ;
+
+    --fairy:linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%) border-box;
+    --fairy-text:#971B45 ;
+
+    --fighting:linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%) border-box;
+    --fighting-text:#96402A;
+
+    --psychic:linear-gradient(176.83deg, #FCD676 -2.25%, #E6901E 133.18%, #e6a044 133.18%) border-box;
+    --psychic-text:#E6901E;
+    
+    --rock:linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%) border-box;
+    --rock-text:#7E7E7E;
+
+    --ghost:linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%) border-box;
+    --ghost-text:#323569;
+
+    --ice:linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%) border-box;
+    --ice-text:#6FBEDF;
+    
+    --dragon:linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%) border-box;
+    --dragon-text:#478A93;
+
+    --dark:linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%) border-box;
+    --dark-text:#030706;
+    
+    --steel:linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%) border-box;
+    --steel-text:#5E736C;
+
+    --flying:linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%) border-box;
+    --flying-text:#735259;
+
+}
+
+/* classes condicionales para fondo y border */
+
+.br__grass{background: var(--grass); color:var(--grass-text);}
+.bg__grass{background: var(--grass);  }
+.btn__grass{background: var(--grass-text); color:white}
+.text__grass{color:var(--grass-text)}
+
+.br__fire{background:var(--fire); color: var(--fire-text);}
+.bg__fire{background: var(--fire);}
+.btn__fire{background: var(--fire-text); color:white}
+.text__fire{color:var(--fire-text)}
+
+.br__water{background:var(--water); color: var(--water-text);}
+.bg__water{background: var(--water);}
+.btn__water{background: var(--water-text); color:white}
+.text__water{color:var(--water-text)}
+
+.br__bug{background:var(--bug); color: var(--bug-text);}
+.bg__bug{background: var(--bug);}
+.btn__bug{background: var(--bug-text); color:white}
+.text__bug{color:var(--bug-text)}
+
+.br__normal{background:var(--normal); color: var(--normal-text);}
+.bg__normal{background: var(--normal);}
+.btn__normal{background: var(--normal-text); color:white}
+.text__normal{color:var(--normal-text)}
+
+.br__poison{background:var(--poison); color: var(--poison-text);}
+.bg__poison{background: var(--poison);}
+.btn__poison{background: var(--poison-text); color:white}
+.text__poison{color:var(--poison-text)}
+
+.br__electric{background:var(--electric); color: var(--electric-text);}
+.bg__electric{background: var(--electric);}
+.btn__electric{background: var(--electric-text); color:white}
+.text__electric{color:var(--electric-text)}
+
+.br__ground{background:var(--ground); color: var(--ground-text);}
+.bg__ground{background: var(--ground);}
+.btn__ground{background: var(--ground-text); color:white}
+.text__ground{color:var(--ground-text)}
+
+.br__fairy{background:var(--fairy); color: var(--fairy-text);}
+.bg__fairy{background: var(--fairy);}
+.btn__fairy{background: var(--fairy-text); color:white}
+.text__fairy{color:var(--fairy-text)}
+
+
+.br__fighting{background:var(--fighting); color: var(--fighting-text);}
+.bg__fighting{background: var(--fighting);}
+.btn__fighting{background: var(--fighting-text); color:white}
+.text__fighting{color:var(--fighting-text)}
+
+.br__psychic{background:var(--psychic); color: var(--psychic-text);}
+.bg__psychic{background: var(--psychic);}
+.btn__psychic{background: var(--psychic-text); color:white}
+.text__psychic{color:var(--psychic-text)}
+
+.br__rock{background:var(--rock); color: var(--rock-text);}
+.bg__rock{background: var(--rock);}
+.btn__rock{background: var(--rock-text); color:white}
+.text__rock{color:var(--rock-text)}
+
+.br__ghost{background:var(--ghost); color: var(--ghost-text);}
+.bg__ghost{background: var(--ghost);}
+.btn__ghost{background: var(--ghost-text); color:white}
+.text__ghost{color:var(--ghost-text)}
+
+.br__ice{background:var(--ice); color: var(--ice-text);}
+.bg__ice{background: var(--ice);}
+.btn__ice{background: var(--ice-text); color:white}
+.text__ice{color:var(--ice-text)}
+
+.br__dragon{background:var(--dragon); color: var(--dragon-text);}
+.bg__dragon{background: var(--dragon);}
+.btn__dragon{background: var(--dragon-text); color:white}
+.text__dragon{color:var(--dragon-text)}
+
+.br__dark{background:var(--dark); color: var(--dark-text);}
+.bg__dark{background: var(--dark);}
+.btn__dark{background: var(--dark-text); color:white}
+.text__dark{color:var(--dark-text)}
+
+.br__steel{background:var(--steel); color: var(--steel-text);}
+.bg__steel{background: var(--steel);}
+.btn__steel{background: var(--steel-text); color:white}
+.text__steel{color:var(--steel-text)}
+
+.br__flying{background:var(--flying); color: var(--flying-text);}
+.bg__flying{background: var(--flying);}
+.btn__flying{background: var(--flying-text); color:white}
+.text__flying{color:var(--flying-text)}
+
+/*FIN  classes condicionales para fondo y border y texto*/
+
+.card_info_container{
+    background-color: white;
+}
+.cards-container{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-color: #E5E5E5;
+}
+.Pokecard{
+    width: 250px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    border: 5px solid transparent;
+    
+
+}
+
+.Pokecard header{
+width: 100%;
+  text-align: center;
+height: 130px;
+}
+
+.pokemonImg{
+    width: 162px;
+    position: relative;
+    bottom: -20px;
+    cursor: pointer;
+    transition: transform 200ms ease;
+}
+
+.pokemonImg:hover{
+    transform: scale(1.3);
+    transition: transform 200ms ease;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+}
+
+.cardBody{
+    position: relative;
+    text-align: center;
+    height: 100px;
+    top: 50px;
+}
+
+.cardBody h3{
+    cursor: pointer;
+}
+.cardBody ul{
+    padding: 10px 0px;
+    margin: auto;
+    width: 80%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.351);
+}
+.cardBody ul li{
+    display: inline-block;
+}
+.cardBody ul li:nth-child(2)::before{
+    content: " | ";
+}
+
+
+.pokeInfo{
+    padding: 10px;
+}
+
+.pokeInfo ul{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.pokeInfo ul li{
+    line-height: 20px;
+font-size: 15px;
+margin:5px 15px;
+font-weight: 700;
+}
+
+.pokeInfo ul li h4{
+
+    font-size: 11px;
+    font-weight: 500;
+}
+

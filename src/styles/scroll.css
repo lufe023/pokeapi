@@ -1,0 +1,17 @@
+/* customized scroll */
+
+
+
+body::-webkit-scrollbar{
+
+width: 25px;
+background-clip: content-box;
+background-color: rgb(241, 241, 241);
+}
+
+body::-webkit-scrollbar-thumb{
+    cursor: pointer;
+background-image: url("/public/pokebola.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}

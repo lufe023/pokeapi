@@ -1,0 +1,123 @@
+/* style for home page*/
+:root{
+    --principal-color:#DD1A1A;
+    --secundary-color:#FE1936;
+    --baground-color:#E5E5E5;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.welcome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding: 20px;
+    
+}
+/* home imges styles*/
+.poketitle{
+    width: 100%;
+}
+
+.ash  { height: 100vh;}
+.nameNeeded{
+    position: relative;
+    bottom: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
+}
+.pickashu{
+    width: 100px;
+}
+
+
+/* home card styles*/
+
+.home_dialog{
+    height: 300px;
+    max-width: 400px;
+    background-color:rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(73, 73, 73);
+}
+
+.hellotrainer{
+    color: var(--secundary-color);
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+/*form styles*/
+.form{
+    width: 100%;
+    text-align: center;
+}
+.formInputs{
+    height: 40px;
+    padding: 5px;
+    border: none;
+}
+.inputName{
+    background-color: white;
+    width: 50%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.catchThem{
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-color: var(--secundary-color);
+    width: 30%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.catchThem:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0,0, 0.8);
+}
+
+@media (max-width: 1000px) {
+    .catchThem{
+        width: 50% ;
+    }
+    .welcome{
+     flex-wrap: wrap;
+    }
+
+    .ash{
+      display: none;
+      
+    }
+    .searchText{
+        margin: 10px auto;
+        width: 100%;
+    }
+    .btn{
+        margin: 10px auto;
+        width: 100%;
+    } 
+    .select{
+        margin: 10px auto;
+        width: 80%;
+    }
+   
+  }
+
